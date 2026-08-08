@@ -190,7 +190,7 @@ No final prediction engine has been implemented yet.
 
 ### Phase 1 — Football Data & Rules
 
-- [ ] Define the required data
+- [x] Define the required data
 - [ ] Identify data sources
 - [ ] Collect historical competition data
 - [ ] Document UEFA competition rules

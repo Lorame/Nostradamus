@@ -188,7 +188,7 @@ Aucun moteur de prédiction final n'a encore été implémenté.
 - [x] Définir le principe de cohérence des tirages
 
 ### Phase 1 — Données et règles du football
-- [ ] Définir les données nécessaires
+- [x] Définir les données nécessaires
 - [ ] Identifier les sources de données
 - [ ] Collecter les données historiques des compétitions
 - [ ] Documenter les règles de la compétition UEFA
