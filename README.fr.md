@@ -189,9 +189,9 @@ Aucun moteur de prédiction final n'a encore été implémenté.
 
 ### Phase 1 — Données et règles du football
 - [x] Définir les données nécessaires
-- [ ] Identifier les sources de données
-- [ ] Collecter les données historiques des compétitions
-- [ ] Documenter les règles de la compétition UEFA
+- [x] Identifier les sources de données
+- [x] Collecter les données historiques des compétitions
+- [x] Documenter les règles de la compétition UEFA
 - [ ] Traduire les règles en contraintes informatiques
 
 ### Phase 2 — Moteur de prédiction football
