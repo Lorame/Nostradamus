@@ -1,6 +1,7 @@
 import os
 import requests
 from dotenv import load_dotenv
+from collections import Counter
 
 # Loading of the API key from .env file
 load_dotenv()
@@ -20,6 +21,6 @@ data = response.json()
 
 matches = data["matches"]
 
-print("Number of matches:", len(matches))
+stages = [match["stage"] for match in matches]
 
-print(matches[0])
+print(Counter(stages))
