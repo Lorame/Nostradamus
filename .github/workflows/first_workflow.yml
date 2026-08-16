@@ -1,0 +1,21 @@
+# First GitHub Actions workflow for Nostradamus
+# This workflow serves as a learning experiment to understand 
+# CI/CD automation that could be useful later.
+
+# A very obvious name
+name: Nostradamus - The First CI/CD Workflow Ever
+
+# This workflow will be triggered every time I push to the main branch.
+on:
+    push:
+        branches: ["main"]
+
+# The first and only job of this workflow is to display the development progress of Nostradamus.
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Display Nostradamus' development progress
+              run: |
+               echo The prediction engine is under development.
+               echo Data collection is coming soon.
