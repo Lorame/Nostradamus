@@ -17,5 +17,4 @@ jobs:
         steps:
             - name: Display Nostradamus' development progress
               run: |
-               echo Nostradamus CI/CD pipeline is running successfully.
-               echo Next step : Football data collection coming soon ⚽️🔥.
+               python scripts/hello_nostradamus.py
