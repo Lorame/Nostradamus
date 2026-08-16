@@ -15,6 +15,11 @@ jobs:
     build:
         runs-on: ubuntu-latest
         steps:
+            # Download the repository content into the GitHub runner
+            - name: Checkout repository first
+              uses: actions/checkout@v4
+            
+            # Now it executes the Python script
             - name: Display Nostradamus' development progress
               run: |
                python scripts/hello_nostradamus.py
