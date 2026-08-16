@@ -17,5 +17,5 @@ jobs:
         steps:
             - name: Display Nostradamus' development progress
               run: |
-               echo The prediction engine is under development.
-               echo Data collection is coming soon.
+               echo Nostradamus CI/CD pipeline is running successfully.
+               echo Next step : Football data collection coming soon ⚽️🔥.
