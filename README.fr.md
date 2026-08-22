@@ -178,6 +178,96 @@ Aucun moteur de prédiction final n'a encore été implémenté.
 
 ---
 
+## 📊 Sources de Données
+
+Nostradamus utilise des sources de données officielles et structurées lorsque cela est possible.
+
+Le projet suit une approche centrée sur les données (*data-first approach*) : avant de construire des mécanismes de prédiction, l'objectif est de collecter des jeux de données fiables, reproductibles et explicables.
+
+### ⚽ Données Football
+
+La première implémentation se concentre sur les données de l'UEFA Champions League.
+
+#### Coefficients des Clubs UEFA
+
+Source : API officielle des coefficients UEFA
+
+Le jeu de données des coefficients UEFA fournit :
+
+- Les identifiants UEFA des clubs
+- Les noms des clubs et leurs noms officiels
+- Les pays et codes pays
+- Les positions dans le classement UEFA
+- Les coefficients actuels des clubs UEFA
+- Les coefficients historiques par saison
+
+Le jeu de données extrait contient :
+
+- 415 clubs UEFA
+- Cinq saisons de données historiques de coefficients
+
+Dataset :
+
+`data/raw/uefa_club_coefficients_full.csv`
+
+Champs principaux :
+
+- `club_id`
+- `club`
+- `official_name`
+- `country`
+- `rank`
+- `points`
+- `season_2026`
+- `season_2025`
+- `season_2024`
+- `season_2023`
+- `season_2022`
+
+La méthodologie et le processus d'exploration utilisés pour construire ce jeu de données sont documentés dans :
+
+[UEFA Data Collection Journey](docs/UEFA_DATA_COLLECTION_JOURNEY.md)
+
+---
+
+#### Participants de la Champions League
+
+Le jeu de données des participants de la Champions League contient les clubs participant à une saison sélectionnée de la compétition.
+
+Il inclut :
+
+- Les noms des clubs
+- Les pays
+- La phase de compétition
+- Les URLs UEFA
+- Les identifiants UEFA lorsqu'ils sont disponibles
+
+Dataset :
+
+`data/raw/ucl_2026_2027_teams.csv`
+
+Ce jeu de données sera combiné avec les coefficients UEFA afin de créer le premier jeu de données complet utilisé comme entrée du moteur de prédiction Nostradamus.
+
+---
+
+## 🔄 Philosophie du Pipeline de Données
+
+Nostradamus privilégie :
+
+- Les sources officielles plutôt que les bases de données tierces
+- Des processus d'extraction reproductibles
+- Une provenance claire des données
+- Des transformations explicables
+
+Lorsque plusieurs sources sont disponibles, chaque source est évaluée selon :
+
+- Sa fiabilité
+- Sa complétude
+- Sa stabilité
+- Sa compatibilité avec les règles de compétition
+
+Les approches abandonnées et les étapes d'exploration sont documentées afin de conserver le raisonnement derrière les décisions techniques.
+
 ## 🗺️ Feuille de route
 
 ### Phase 0 — Définition du projet

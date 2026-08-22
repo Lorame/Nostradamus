@@ -177,6 +177,97 @@ Current priorities include:
 No final prediction engine has been implemented yet.
 
 ---
+## 📊 Data Sources
+
+Nostradamus relies on official and structured data sources whenever possible.
+
+The project follows a data-first approach: before building prediction mechanisms, the objective is to collect reliable, reproducible and explainable datasets.
+
+### ⚽ Football Data
+
+The first implementation focuses on UEFA Champions League data.
+
+#### UEFA Club Coefficients
+
+Source: UEFA official coefficient API
+
+The UEFA coefficient dataset provides:
+
+- UEFA club identifiers
+- Club names and official names
+- Countries and country codes
+- UEFA ranking positions
+- Current UEFA coefficients
+- Historical seasonal coefficients
+
+The extracted dataset contains:
+
+- 415 UEFA clubs
+- Five seasons of historical coefficient data
+
+Dataset: 
+
+data/raw/uefa_club_coefficients_full.csv
+
+
+Main fields:
+
+- `club_id`
+- `club`
+- `official_name`
+- `country`
+- `rank`
+- `points`
+- `season_2026`
+- `season_2025`
+- `season_2024`
+- `season_2023`
+- `season_2022`
+
+The methodology and exploration process used to build this dataset are documented in:
+
+[UEFA Data Collection Journey](docs/UEFA_DATA_COLLECTION_JOURNEY.md)
+
+---
+
+#### Champions League Participants
+
+The Champions League participant dataset contains the clubs participating in the selected competition season.
+
+It includes:
+
+- Club names
+- Countries
+- Competition stage
+- UEFA URLs
+- UEFA identifiers when available
+
+Dataset:
+
+data/raw/ucl_2026_2027_teams.csv
+
+
+This dataset will be combined with UEFA coefficient data to create the first complete input dataset for the Nostradamus prediction engine.
+
+---
+
+## 🔄 Data Pipeline Philosophy
+
+Nostradamus prioritizes:
+
+- Official sources over third-party databases
+- Reproducible extraction processes
+- Clear data provenance
+- Explainable transformations
+
+When multiple sources are available, each source is evaluated based on:
+
+- Reliability
+- Completeness
+- Stability
+- Compatibility with competition rules
+
+Failed approaches and exploration steps are documented to preserve the reasoning behind technical decisions.
 
 ## 🗺️ Roadmap
 

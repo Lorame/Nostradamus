@@ -1,0 +1,41 @@
+kassiesa_team,country,coefficient,uefa_url,status
+Bayern München,Ger,147.5,https://www.uefa.com/uefachampionsleague/clubs/50037--bayern-munchen/,found
+Real Madrid,Esp,144.5,https://www.uefa.com/uefachampionsleague/clubs/50051--real-madrid/,found
+Paris Saint-Germain,Fra,132.0,https://www.uefa.com/nationalassociations/teams/52747--paris/,found
+Liverpool,Eng,130.0,https://www.uefa.com/uefachampionsleague/clubs/7889--liverpool/,found
+Internazionale,Ita,127.0,,not_found
+Manchester City,Eng,125.5,,not_found
+Arsenal,Eng,119.0,https://www.uefa.com/uefachampionsleague/clubs/52280--arsenal/,found
+FC Barcelona,Esp,113.25,https://www.uefa.com/uefachampionsleague/clubs/50080--barcelona/,found
+Bayer Leverkusen,Ger,105.0,https://www.uefa.com/uefachampionsleague/clubs/50109--leverkusen/,found
+Atlético Madrid,Esp,104.75,,not_found
+Borussia Dortmund,Ger,100.75,,not_found
+Chelsea,Eng,99.25,https://www.uefa.com/uefachampionsleague/clubs/52914--chelsea/,found
+AS Roma,Ita,97.75,,not_found
+Benfica,Por,90.0,https://www.uefa.com/uefachampionsleague/clubs/50147--benfica/,found
+Sporting CP Lisbon,Por,84.0,https://www.uefa.com/uefachampionsleague/clubs/50149--sporting-cp/,found
+Atalanta,Ita,84.0,https://www.uefa.com/uefachampionsleague/clubs/52816--atalanta/,found
+Aston Villa,Eng,83.0,,not_found
+Eintracht Frankfurt,Ger,83.0,https://www.uefa.com/uefachampionsleague/clubs/50072--frankfurt/,found
+Tottenham Hotspur,Eng,82.0,https://www.uefa.com/uefachampionsleague/clubs/1652--tottenham/,found
+FC Porto,Por,80.75,https://www.uefa.com/uefachampionsleague/clubs/50064--porto/,found
+Manchester United,Eng,76.5,,not_found
+Fiorentina,Ita,76.25,,not_found
+Club Brugge,Bel,75.25,https://www.uefa.com/uefachampionsleague/clubs/50043--club-brugge/,found
+Real Betis,Esp,74.5,https://www.uefa.com/uefaeuropaleague/clubs/52265--real-betis/,found
+Juventus,Ita,72.25,,not_found
+PSV Eindhoven,Ned,71.25,,not_found
+Feyenoord,Ned,71.0,,not_found
+West Ham United,Eng,69.0,,not_found
+Lille OSC,Fra,68.75,https://www.uefa.com/nationalassociations/teams/75797--lille/,found
+AC Milan,Ita,66.0,,not_found
+Olympique Lyon,Fra,65.75,,not_found
+Bodø/Glimt,Nor,64.0,,not_found
+Sporting Braga,Por,63.75,https://www.uefa.com/uefaeuropaleague/clubs/52336--braga/,found
+Napoli,Ita,63.0,https://www.uefa.com/uefachampionsleague/clubs/50136--napoli/,found
+AZ Alkmaar,Ned,62.875,https://www.uefa.com/uefaeuropaleague/clubs/52327--az-alkmaar/,found
+Olympiakos Piraeus,Gre,62.25,https://www.uefa.com/uefachampionsleague/clubs/2610--olympiacos/,found
+RB Leipzig,Ger,61.0,https://www.uefa.com/uefachampionsleague/clubs/2603790--leipzig/,found
+Glasgow Rangers,Sco,59.25,https://www.uefa.com/uefaeuropaleague/clubs/50121--rangers/,found
+Villarreal,Esp,59.0,,not_found
+Lazio,Ita,59.0,,not_found

@@ -1,0 +1,11 @@
+rank,team,country,coefficient,uefa_url
+1.0,Bayern München,Ger,147.5,
+2.0,Real Madrid,Esp,144.5,
+3.0,Paris Saint-Germain,Fra,132.0,
+4.0,Liverpool,Eng,130.0,
+5.0,Internazionale,Ita,127.0,
+6.0,Manchester City,Eng,125.5,
+7.0,Arsenal,Eng,119.0,https://www.uefa.com/uefachampionsleague/clubs/52280--arsenal/
+8.0,FC Barcelona,Esp,113.25,https://www.uefa.com/uefachampionsleague/clubs/50080--barcelona/
+9.0,Bayer Leverkusen,Ger,105.0,https://www.uefa.com/uefachampionsleague/clubs/50109--leverkusen/
+10.0,Atlético Madrid,Esp,104.75,

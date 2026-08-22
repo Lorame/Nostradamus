@@ -1,0 +1,44 @@
+uefa_team,country,stage,uefa_url,kassiesa_team,coefficient,similarity,second_similarity,gap,status
+Arsenal,ENG,Phase de ligue,/uefachampionsleague/clubs/52280--arsenal/,Arsenal,119.0,100.0,70.0,30.0,auto
+Aston Villa,ENG,Phase de ligue,/uefachampionsleague/clubs/52683--aston-villa/,Aston Villa,83.0,100.0,66.66666666666667,33.33333333333333,auto
+Atleti,ESP,Phase de ligue,/uefachampionsleague/clubs/50124--atleti/,Real Betis,74.5,62.5,57.14285714285714,5.357142857142861,manual
+B. Dortmund,GER,Phase de ligue,/uefachampionsleague/clubs/52758--b-dortmund/,Borussia Dortmund,100.75,74.07407407407408,47.61904761904761,26.455026455026463,auto_gap
+Barcelona,ESP,Phase de ligue,/uefachampionsleague/clubs/50080--barcelona/,FC Barcelona,113.25,100.0,62.5,37.5,auto
+Bayern München,GER,Phase de ligue,/uefachampionsleague/clubs/50037--bayern-munchen/,Bayern München,147.5,100.0,60.0,40.0,auto
+Club Brugge,BEL,Phase de ligue,/uefachampionsleague/clubs/50043--club-brugge/,Club Brugge,75.25,100.0,63.1578947368421,36.8421052631579,auto
+Como,ITA,Phase de ligue,/uefachampionsleague/clubs/79946--como/,Cosmos,1.0,80.0,44.44444444444444,35.55555555555556,auto_gap
+Feyenoord,NED,Phase de ligue,/uefachampionsleague/clubs/52749--feyenoord/,Feyenoord,71.0,100.0,50.0,50.0,auto
+Galatasaray,TUR,Phase de ligue,/uefachampionsleague/clubs/50067--galatasaray/,Galatasaray,53.5,100.0,54.54545454545454,45.45454545454546,auto
+Inter,ITA,Phase de ligue,/uefachampionsleague/clubs/50138--inter/,Inter Turku,2.0,62.5,54.54545454545454,7.95454545454546,manual
+Leipzig,GER,Phase de ligue,/uefachampionsleague/clubs/2603790--leipzig/,RB Leipzig,61.0,82.35294117647058,50.0,32.35294117647058,auto_gap
+Lens,FRA,Phase de ligue,/uefachampionsleague/clubs/52277--lens/,RC Lens,12.5,72.72727272727273,60.0,12.727272727272734,manual
+Lille,FRA,Phase de ligue,/uefachampionsleague/clubs/75797--lille/,Lille OSC,68.75,71.42857142857143,58.82352941176471,12.60504201680672,manual
+Liverpool,ENG,Phase de ligue,/uefachampionsleague/clubs/7889--liverpool/,Liverpool,130.0,100.0,47.61904761904761,52.38095238095239,auto
+Man City,ENG,Phase de ligue,/uefachampionsleague/clubs/52919--man-city/,Manchester City,125.5,69.56521739130434,66.66666666666667,2.8985507246376727,manual
+Man Utd,ENG,Phase de ligue,/uefachampionsleague/clubs/52682--man-utd/,Manchester United,76.5,58.33333333333333,52.63157894736843,5.701754385964897,manual
+Napoli,ITA,Phase de ligue,/uefachampionsleague/clubs/50136--napoli/,Napoli,63.0,100.0,53.333333333333336,46.666666666666664,auto
+Paris,FRA,Phase de ligue,/uefachampionsleague/clubs/52747--paris/,Pafos FC,24.125,60.0,60.0,0.0,manual
+Porto,POR,Phase de ligue,/uefachampionsleague/clubs/50064--porto/,FC Porto,80.75,100.0,46.15384615384615,53.84615384615385,auto
+PSV,NED,Phase de ligue,/uefachampionsleague/clubs/50062--psv/,Pafos FC,24.125,50.0,50.0,0.0,manual
+Real Betis,ESP,Phase de ligue,/uefachampionsleague/clubs/52265--real-betis/,Real Betis,74.5,100.0,60.86956521739131,39.13043478260869,auto
+Real Madrid,ESP,Phase de ligue,/uefachampionsleague/clubs/50051--real-madrid/,Real Madrid,144.5,100.0,69.23076923076923,30.769230769230774,auto
+Roma,ITA,Phase de ligue,/uefachampionsleague/clubs/50137--roma/,AS Roma,97.75,72.72727272727273,60.0,12.727272727272734,manual
+Shakhtar,UKR,Phase de ligue,/uefachampionsleague/clubs/52707--shakhtar/,Shakhtar Donetsk,56.25,66.66666666666667,59.25925925925925,7.407407407407419,manual
+Slavia Praha,CZE,Phase de ligue,/uefachampionsleague/clubs/52498--slavia-praha/,Slavia Praha,44.0,100.0,75.0,25.0,auto
+Sporting CP,POR,Phase de ligue,/uefachampionsleague/clubs/50149--sporting-cp/,Sporting CP Lisbon,84.0,75.86206896551724,72.0,3.8620689655172384,manual
+Stuttgart,GER,Phase de ligue,/uefachampionsleague/clubs/50107--stuttgart/,VfB Stuttgart,27.5,81.81818181818181,66.66666666666667,15.151515151515142,auto_gap
+Villarreal,ESP,Phase de ligue,/uefachampionsleague/clubs/70691--villarreal/,Villarreal,59.0,100.0,58.82352941176471,41.17647058823529,auto
+AEK Athens,GRE,Barrages,/uefachampionsleague/clubs/50129--aek-athens/,AEK Athens,24.0,100.0,57.14285714285714,42.85714285714286,auto
+Bodø/Glimt,NOR,Barrages,/uefachampionsleague/clubs/59333--bodo-glimt/,Bodø/Glimt,64.0,100.0,47.61904761904761,52.38095238095239,auto
+Celje,SVN,Barrages,/uefachampionsleague/clubs/59030--celje/,NK Celje,23.0,76.92307692307692,66.66666666666667,10.256410256410248,manual
+Celtic,SCO,Barrages,/uefachampionsleague/clubs/50050--celtic/,Celtic,44.0,100.0,52.63157894736843,47.36842105263157,auto
+Fenerbahçe,TUR,Barrages,/uefachampionsleague/clubs/52692--fenerbahce/,Fenerbahçe,57.75,100.0,55.55555555555556,44.44444444444444,auto
+GNK Dinamo,CRO,Barrages,/uefachampionsleague/clubs/50164--gnk-dinamo/,NK Varazdin,1.5,57.14285714285714,55.55555555555556,1.5873015873015817,manual
+H. Beer-Sheva,ISR,Barrages,/uefachampionsleague/clubs/59340--h-beer-sheva/,Hapoel Beer-Sheva,14.0,82.75862068965517,52.63157894736843,30.127041742286742,auto_gap
+LASK,AUT,Barrages,/uefachampionsleague/clubs/63405--lask/,LASK,21.0,100.0,61.53846153846154,38.46153846153846,auto
+Levski Sofia,BUL,Barrages,/uefachampionsleague/clubs/50044--levski-sofia/,Levski Sofia,7.0,100.0,72.72727272727273,27.272727272727266,auto
+Lyon,FRA,Barrages,/uefachampionsleague/clubs/5312--lyon/,Bologna,30.75,54.54545454545454,50.0,4.54545454545454,manual
+N.E.C.,NED,Barrages,/uefachampionsleague/clubs/52330--n-e-c/,NK Celje,23.0,46.15384615384615,46.15384615384615,0.0,manual
+S. Bratislava,SVK,Barrages,/uefachampionsleague/clubs/52797--s-bratislava/,Slovan Bratislava,36.0,82.75862068965517,56.00000000000001,26.758620689655167,auto_gap
+Sabah,AZE,Barrages,/uefachampionsleague/clubs/2609356--sabah/,Sabah FK,6.0,76.92307692307692,50.0,26.92307692307692,auto_gap
+Viking,NOR,Barrages,/uefachampionsleague/clubs/52319--viking/,Víkingur,6.0,85.71428571428572,54.54545454545454,31.168831168831183,auto_gap
