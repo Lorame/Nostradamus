@@ -161,18 +161,26 @@ A future version could also notify users when a significant event causes a predi
 
 ## 🚧 Project Status
 
-Nostradamus is currently in the **early development and project design phase**.
+Nostradamus is currently in the **early development phase**.
+
+The project definition phase and the initial football data preparation phase have been completed.
 
 The first implementation focuses on the football component and, more specifically, on the UEFA Champions League.
 
-Current priorities include:
+Completed milestones include:
 
 - defining the required datasets
 - identifying reliable data sources
-- documenting official competition rules
-- translating competition rules into computational constraints
-- designing the deterministic prediction mechanism
-- developing the first football prototype
+- collecting UEFA club coefficient data
+- collecting Champions League participant data
+- integrating raw datasets into a processed master dataset
+
+The current development phase focuses on:
+
+- translating official competition rules into computational constraints
+- designing the deterministic draw mechanism
+- implementing competition pots
+- developing the first football prediction prototype
 
 No final prediction engine has been implemented yet.
 
