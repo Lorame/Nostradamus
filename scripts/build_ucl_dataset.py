@@ -7,7 +7,7 @@ import re
 ucl_path = Path("data/raw/ucl_2026_2027_teams.csv")
 coef_path = Path("data/raw/uefa_club_coefficients_full.csv")
 
-output_path = Path("data/processed/ucl_2026_2027_clubs_full.csv")
+output_path = Path("ucl_2026_2027_qualification_pool.csv")
 
 
 # Load data

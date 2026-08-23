@@ -5,7 +5,7 @@ import re
 
 UCL_PATH = Path("data/raw/ucl_2026_2027_teams.csv")
 UEFA_PATH = Path("data/raw/uefa_club_coefficients_full.csv")
-OUTPUT_PATH = Path("data/processed/ucl_2026_2027_clubs_full.csv")
+OUTPUT_PATH = Path("data/processed/ucl_2026_2027_qualification_pool.csv")
 
 
 def extract_club_id(url):
