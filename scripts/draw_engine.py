@@ -193,47 +193,40 @@ def generate_team_draw(
     rng: random.Random,
 ) -> list[dict]:
     """Generate eight opponents for one team."""
-
     opponents = []
 
     for pot_name, pot in pots.items():
-
         candidates = get_candidates(
             team,
             pot,
             opponents,
         )
 
-        if candidates.empty:
+        if len(candidates) < 2:
             raise RuntimeError(
-                f"No valid opponent found for "
+                f"Not enough valid opponents found for "
                 f"{team['club_id']} in {pot_name}."
             )
 
         candidate_indices = list(candidates.index)
-
         rng.shuffle(candidate_indices)
 
-        selected = candidates.loc[
-            candidate_indices[0]
-        ]
+        selected_indices = candidate_indices[:2]
 
-        venue = choose_venue(
-            rng,
-            opponents,
-        )
+        venues = ["home", "away"]
+        rng.shuffle(venues)
 
-        opponents.append(
-            {
-                "club_id": int(selected["club_id"]),
-                "country_code": selected["country_code"],
-                "pot": pot_name,
-                "venue": venue,
-            }
-        )
+        for index, venue in zip(selected_indices, venues):
+            selected = candidates.loc[index]
 
-        if len(opponents) == 8:
-            break
+            opponents.append(
+                {
+                    "club_id": int(selected["club_id"]),
+                    "country_code": selected["country_code"],
+                    "pot": pot_name,
+                    "venue": venue,
+                }
+            )
 
     return opponents
 
