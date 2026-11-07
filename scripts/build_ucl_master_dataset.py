@@ -1,6 +1,7 @@
 from pathlib import Path
 import pandas as pd
 import re
+import numpy as np
 
 
 UCL_PATH = Path("data/raw/ucl_2026_2027_teams.csv")
@@ -80,6 +81,52 @@ df = ucl.merge(
     suffixes=("_ucl", "_uefa")
 )
 
+# Build national association coefficient mapping
+association_coefficients = (
+    uefa[["country_code", "national_association_points"]]
+    .dropna()
+    .drop_duplicates()
+)
+
+if association_coefficients["country_code"].duplicated().any():
+    raise ValueError(
+        "Multiple national association coefficients found for a country."
+    )
+
+association_map = association_coefficients.set_index(
+    "country_code"
+)["national_association_points"]
+
+# Validate association coverage
+missing_associations = (
+    set(df["country_ucl"].dropna())
+    - set(association_map.index)
+)
+
+if missing_associations:
+    raise ValueError(
+        f"Missing national association coefficients: "
+        f"{sorted(missing_associations)}"
+    )
+
+# Complete missing national association coefficients
+df["national_association_points"] = (
+    df["national_association_points"].fillna(
+        df["country_ucl"].map(association_map)
+    )
+)
+
+# Calculate the 20% national association floor
+df["association_floor"] = (
+    np.floor(
+        df["national_association_points"] * 0.20 * 1000
+    ) / 1000
+)
+
+# Calculate the coefficient applicable to the draw
+df["draw_coefficient"] = (
+    df[["points", "association_floor"]].max(axis=1)
+)
 
 print(f"\nFinal clubs : {len(df)}")
 

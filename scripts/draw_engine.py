@@ -15,16 +15,17 @@ from scripts.draw_rules import (
 )
 
 
+
 def prepare_pots(
     clubs: pd.DataFrame,
     titleholder_id: int,
 ) -> dict[str, pd.DataFrame]:
-    """Prepare the four draw pots from the UEFA club ranking."""
+    """Prepare the four draw pots from UEFA draw coefficients."""
 
     required_columns = {
         "club_id",
-        "rank",
         "country_code",
+        "draw_coefficient",
     }
 
     missing = required_columns - set(clubs.columns)
@@ -36,7 +37,21 @@ def prepare_pots(
 
     clubs = clubs.copy()
 
-    clubs = clubs.sort_values("rank").reset_index(drop=True)
+    if clubs["draw_coefficient"].isna().any():
+        missing_coefficients = clubs.loc[
+            clubs["draw_coefficient"].isna(),
+            ["club_id", "country_code"],
+        ]
+
+        raise ValueError(
+            "Missing draw coefficients:\n"
+            f"{missing_coefficients.to_string(index=False)}"
+        )
+
+    clubs = clubs.sort_values(
+        "draw_coefficient",
+        ascending=False,
+    ).reset_index(drop=True)
 
     titleholder = clubs.loc[
         clubs["club_id"] == titleholder_id
@@ -53,7 +68,10 @@ def prepare_pots(
         clubs["club_id"] != titleholder_id
     ].copy()
 
-    remaining = remaining.sort_values("rank")
+    remaining = remaining.sort_values(
+        "draw_coefficient",
+        ascending=False,
+    )
 
     pot_1 = pd.concat(
         [
@@ -75,6 +93,7 @@ def prepare_pots(
     validate_pot_sizes(pots)
 
     return pots
+
 
 
 def validate_pot_sizes(

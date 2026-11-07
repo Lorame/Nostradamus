@@ -57,7 +57,18 @@ def validate_scenario_dataset(df):
             "The scenario contains duplicate club IDs."
         )
 
+    if df["country_ucl"].isna().any():
+        missing = df.loc[
+            df["country_ucl"].isna(),
+            "team",
+        ].tolist()
+
+        raise ValueError(
+            f"Missing country for clubs: {missing}"
+        )
+
     return True
+
 
 
 def prepare_scenario_pots(scenario_df):
