@@ -12,6 +12,7 @@ def make_clubs():
     return pd.DataFrame(
         {
             "club_id": range(1, 37),
+            "draw_coefficient": range(36, 0, -1),
             "rank": range(1, 37),
             "country_code": [
                 "FRA",
