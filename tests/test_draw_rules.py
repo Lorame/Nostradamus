@@ -11,6 +11,7 @@ from scripts.draw_rules import (
     validate_home_away_balance,
     validate_no_duplicate_opponents,
     validate_matchday_home_away_sequence,
+    validate_reciprocal_draw,
 )
 
 
@@ -109,6 +110,43 @@ def test_two_opponents_per_pot():
     }
 
     assert validate_pot_distribution(opponents_by_pot) is True
+
+
+def test_valid_reciprocal_draw():
+    draw = {
+        1: [
+            make_opponent(2, "ENG", "pot_1", "home"),
+        ],
+        2: [
+            make_opponent(1, "FRA", "pot_1", "away"),
+        ],
+    }
+
+    assert validate_reciprocal_draw(draw) is True
+
+
+def test_invalid_reciprocal_draw_missing_opponent():
+    draw = {
+        1: [
+            make_opponent(2, "ENG", "pot_1", "home"),
+        ],
+        2: [],
+    }
+
+    assert validate_reciprocal_draw(draw) is False
+
+
+def test_invalid_reciprocal_draw_wrong_venue():
+    draw = {
+        1: [
+            make_opponent(2, "ENG", "pot_1", "home"),
+        ],
+        2: [
+            make_opponent(1, "FRA", "pot_1", "home"),
+        ],
+    }
+
+    assert validate_reciprocal_draw(draw) is False
 
 
 def test_invalid_pot_distribution():
