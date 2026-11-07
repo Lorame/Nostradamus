@@ -1,44 +1,44 @@
-team,country_ucl,club_id,qualification_status,club,official_name,country_uefa,country_code,team_code,uefa_logo,rank,points,national_association_points,season_2026,season_2025,season_2024,season_2023,season_2022
-Arsenal,ENG,52280,league_phase,Arsenal,Arsenal FC,Angleterre,ENG,ARS,https://img.uefa.com/imgml/TP/teams/logos/70x70/52280.png,7.0,119.0,23.903,44.0,36.0,22.0,17.0,
-Aston Villa,ENG,52683,league_phase,Aston Villa,Aston Villa,Angleterre,ENG,AVL,https://img.uefa.com/imgml/TP/teams/logos/70x70/52683.png,17.0,83.0,23.903,35.75,30.25,17.0,,
-Atleti,ESP,50124,league_phase,Atleti,Atlético de Madrid,Espagne,ESP,ATM,https://img.uefa.com/imgml/TP/teams/logos/70x70/50124.png,10.0,104.75,19.409,27.25,26.5,24.0,8.0,19.0
-B. Dortmund,GER,52758,league_phase,B. Dortmund,Borussia Dortmund,Allemagne,GER,BVB,https://img.uefa.com/imgml/TP/teams/logos/70x70/52758.png,11.0,100.75,18.58,16.0,27.75,29.0,18.0,10.0
-Barcelona,ESP,50080,league_phase,Barcelona,FC Barcelona,Espagne,ESP,BAR,https://img.uefa.com/imgml/TP/teams/logos/70x70/50080.png,8.0,113.25,19.409,30.0,36.25,23.0,9.0,15.0
-Bayern München,GER,50037,league_phase,Bayern München,FC Bayern München,Allemagne,GER,BAY,https://img.uefa.com/imgml/TP/teams/logos/70x70/50037.png,1.0,147.5,18.58,39.25,27.25,28.0,27.0,26.0
-Club Brugge,BEL,50043,league_phase,Club Brugge,Club Brugge KV,Belgique,BEL,BRU,https://img.uefa.com/imgml/TP/teams/logos/70x70/50043.png,23.0,75.25,12.45,14.5,15.75,21.0,17.0,7.0
-Como,ITA,79946,league_phase,,,,,,,,,,,,,,
-Feyenoord,NED,52749,league_phase,Feyenoord,Feyenoord,Pays-Bas,NED,FEY,https://img.uefa.com/imgml/TP/teams/logos/70x70/52749.png,27.0,71.0,13.585,4.0,18.0,8.0,17.0,24.0
-Galatasaray,TUR,50067,league_phase,Galatasaray,Galatasaray A.Ş.,Turquie,TUR,GAL,https://img.uefa.com/imgml/TP/teams/logos/70x70/50067.png,49.0,53.5,10.375,17.75,12.75,8.0,,15.0
-Inter,ITA,50138,league_phase,Inter,FC Internazionale Milano,Italie,ITA,INT,https://img.uefa.com/imgml/TP/teams/logos/70x70/50138.png,5.0,127.0,19.989,19.75,40.25,20.0,29.0,18.0
-Leipzig,GER,2603790,league_phase,Leipzig,RB Leipzig,Allemagne,GER,RBL,https://img.uefa.com/imgml/TP/teams/logos/70x70/2603790.png,37.0,61.0,18.58,,8.0,18.0,18.0,17.0
-Lens,FRA,52277,league_phase,Lens,RC Lens,France,FRA,LEN,https://img.uefa.com/imgml/TP/teams/logos/70x70/52277.png,120.0,12.5,16.699,,2.5,10.0,,
-Lille,FRA,75797,league_phase,Lille,LOSC Lille,France,FRA,LIL,https://img.uefa.com/imgml/TP/teams/logos/70x70/75797.png,29.0,68.75,16.699,10.75,24.0,17.0,,17.0
-Liverpool,ENG,7889,league_phase,Liverpool,Liverpool FC,Angleterre,ENG,LIV,https://img.uefa.com/imgml/TP/teams/logos/70x70/7889.png,4.0,130.0,23.903,28.5,29.5,20.0,19.0,33.0
-Man City,ENG,52919,league_phase,Man City,Manchester City,Angleterre,ENG,MCI,https://img.uefa.com/imgml/TP/teams/logos/70x70/52919.png,6.0,125.5,23.903,22.75,14.75,28.0,33.0,27.0
-Man Utd,ENG,52682,league_phase,Man Utd,Manchester United,Angleterre,ENG,MUN,https://img.uefa.com/imgml/TP/teams/logos/70x70/52682.png,21.0,76.5,23.903,,32.5,7.0,19.0,18.0
-Napoli,ITA,50136,league_phase,Napoli,SSC Napoli,Italie,ITA,NAP,https://img.uefa.com/imgml/TP/teams/logos/70x70/50136.png,34.0,63.0,19.989,12.0,,17.0,25.0,9.0
-Paris,FRA,52747,league_phase,Paris,Paris Saint-Germain,France,FRA,PSG,https://img.uefa.com/imgml/TP/teams/logos/70x70/52747.png,3.0,132.0,16.699,37.5,33.5,23.0,19.0,19.0
-Porto,POR,50064,league_phase,Porto,FC Porto,Portugal,POR,POR,https://img.uefa.com/imgml/TP/teams/logos/70x70/50064.png,20.0,80.75,14.633,24.0,9.75,19.0,18.0,10.0
-PSV,NED,50062,league_phase,PSV,PSV Eindhoven,Pays-Bas,NED,PSV,https://img.uefa.com/imgml/TP/teams/logos/70x70/50062.png,26.0,71.25,13.585,12.0,21.25,17.0,11.0,10.0
-Real Betis,ESP,52265,league_phase,Real Betis,Real Betis Balompié,Espagne,ESP,BET,https://img.uefa.com/imgml/TP/teams/logos/70x70/52265.png,24.0,74.5,19.409,22.25,19.25,6.0,16.0,11.0
-Real Madrid,ESP,50051,league_phase,Real Madrid,Real Madrid C.F.,Espagne,ESP,RMA,https://img.uefa.com/imgml/TP/teams/logos/70x70/50051.png,2.0,144.5,19.409,27.0,24.5,34.0,29.0,30.0
-Roma,ITA,50137,league_phase,Roma,AS Roma,Italie,ITA,ROM,https://img.uefa.com/imgml/TP/teams/logos/70x70/50137.png,13.0,97.75,19.989,17.25,14.5,21.0,22.0,23.0
-Shakhtar,UKR,52707,league_phase,Shakhtar,FC Shakhtar Donetsk,Ukraine,UKR,SHK,https://img.uefa.com/imgml/TP/teams/logos/70x70/52707.png,45.0,56.25,5.182,18.25,11.0,10.0,11.0,6.0
-Slavia Praha,CZE,52498,league_phase,Slavia Praha,SK Slavia Praha,Tchéquie,CZE,SLA,https://img.uefa.com/imgml/TP/teams/logos/70x70/52498.png,59.0,44.0,9.705,9.0,4.0,15.0,6.0,10.0
-Sporting CP,POR,50149,league_phase,Sporting CP,Sporting Clube de Portugal,Portugal,POR,SPO,https://img.uefa.com/imgml/TP/teams/logos/70x70/50149.png,15.0,84.0,14.633,27.5,14.5,12.0,14.0,16.0
-Stuttgart,GER,50107,league_phase,Stuttgart,VfB Stuttgart,Allemagne,GER,STU,https://img.uefa.com/imgml/TP/teams/logos/70x70/50107.png,80.0,27.5,18.58,14.5,13.0,,,
-Villarreal,ESP,70691,league_phase,Villarreal,Villarreal CF,Espagne,ESP,VIL,https://img.uefa.com/imgml/TP/teams/logos/70x70/70691.png,39.0,59.0,19.409,7.0,,16.0,12.0,24.0
-AEK Athens,GRE,50129,playoff,AEK Athens,AEK Athens FC,Grèce,GRE,AEK,https://img.uefa.com/imgml/TP/teams/logos/70x70/50129.png,84.0,24.0,9.682,17.5,2.0,3.0,,1.5
-Bodø/Glimt,NOR,59333,playoff,Bodø/Glimt,FK Bodø/Glimt,Norvège,NOR,BOD,https://img.uefa.com/imgml/TP/teams/logos/70x70/59333.png,32.0,64.0,8.247,17.0,21.0,8.0,3.0,15.0
-Celje,SVN,59030,playoff,Celje,NK Celje,Slovénie,SVN,CLJ,https://img.uefa.com/imgml/TP/teams/logos/70x70/59030.png,89.0,23.0,4.893,11.0,9.5,2.5,,
-Celtic,SCO,50050,playoff,Celtic,Celtic FC,Écosse,SCO,CEL,https://img.uefa.com/imgml/TP/teams/logos/70x70/50050.png,58.0,44.0,6.41,9.0,16.0,7.0,6.0,6.0
-Fenerbahçe,TUR,52692,playoff,Fenerbahçe,Fenerbahçe SK,Turquie,TUR,FEN,https://img.uefa.com/imgml/TP/teams/logos/70x70/52692.png,42.0,57.75,10.375,10.5,11.25,14.0,17.0,5.0
-GNK Dinamo,CRO,50164,playoff,GNK Dinamo,GNK Dinamo,Croatie,CRO,DIN,https://img.uefa.com/imgml/TP/teams/logos/70x70/50164.png,56.0,46.5,5.631,7.5,14.0,9.0,7.0,9.0
-H. Beer-Sheva,ISR,59340,playoff,H. Beer-Sheva,Hapoel Beer-Sheva FC,Israël,ISR,HBS,https://img.uefa.com/imgml/TP/teams/logos/70x70/59340.png,132.0,14.0,5.5,1.5,2.0,2.0,6.0,2.5
-LASK,AUT,63405,playoff,LASK,LASK,Autriche,AUT,LASK,https://img.uefa.com/imgml/TP/teams/logos/70x70/63405.png,99.0,21.0,6.77,,3.0,3.0,,15.0
-Levski Sofia,BUL,50044,playoff,Levski Sofia,PFC Levski Sofia,Bulgarie,BUL,LSO,https://img.uefa.com/imgml/TP/teams/logos/70x70/50044.png,222.0,7.0,4.212,2.5,,2.5,2.0,
-Lyon,FRA,5312,playoff,Lyon,Olympique Lyonnais,France,FRA,LYO,https://img.uefa.com/imgml/TP/teams/logos/70x70/5312.png,31.0,65.75,16.699,22.0,22.75,,,21.0
-N.E.C.,NED,52330,playoff,,,,,,,,,,,,,,
-S. Bratislava,SVK,52797,playoff,S. Bratislava,ŠK Slovan Bratislava,Slovaquie,SVK,SLB,https://img.uefa.com/imgml/TP/teams/logos/70x70/52797.png,65.0,36.0,4.475,4.0,6.0,8.0,12.0,6.0
-Sabah,AZE,2609356,playoff,Sabah,Sabah FC,Azerbaïdjan,AZE,SAB,https://img.uefa.com/imgml/TP/teams/logos/70x70/2609356.png,244.0,6.0,4.587,2.0,2.0,2.0,,
-Viking,NOR,52319,playoff,Viking,Viking FK,Norvège,NOR,VFK,https://img.uefa.com/imgml/TP/teams/logos/70x70/52319.png,202.0,4.5,8.247,2.0,,,2.5,
+team,country_ucl,club_id,qualification_status,club,official_name,country_uefa,country_code,team_code,uefa_logo,rank,points,national_association_points,season_2026,season_2025,season_2024,season_2023,season_2022,association_floor,draw_coefficient
+Arsenal,ENG,52280,league_phase,Arsenal,Arsenal FC,Angleterre,ENG,ARS,https://img.uefa.com/imgml/TP/teams/logos/70x70/52280.png,7.0,119.0,23.903,44.0,36.0,22.0,17.0,,4.78,119.0
+Aston Villa,ENG,52683,league_phase,Aston Villa,Aston Villa,Angleterre,ENG,AVL,https://img.uefa.com/imgml/TP/teams/logos/70x70/52683.png,17.0,83.0,23.903,35.75,30.25,17.0,,,4.78,83.0
+Atleti,ESP,50124,league_phase,Atleti,Atlético de Madrid,Espagne,ESP,ATM,https://img.uefa.com/imgml/TP/teams/logos/70x70/50124.png,10.0,104.75,19.409,27.25,26.5,24.0,8.0,19.0,3.881,104.75
+B. Dortmund,GER,52758,league_phase,B. Dortmund,Borussia Dortmund,Allemagne,GER,BVB,https://img.uefa.com/imgml/TP/teams/logos/70x70/52758.png,11.0,100.75,18.58,16.0,27.75,29.0,18.0,10.0,3.715,100.75
+Barcelona,ESP,50080,league_phase,Barcelona,FC Barcelona,Espagne,ESP,BAR,https://img.uefa.com/imgml/TP/teams/logos/70x70/50080.png,8.0,113.25,19.409,30.0,36.25,23.0,9.0,15.0,3.881,113.25
+Bayern München,GER,50037,league_phase,Bayern München,FC Bayern München,Allemagne,GER,BAY,https://img.uefa.com/imgml/TP/teams/logos/70x70/50037.png,1.0,147.5,18.58,39.25,27.25,28.0,27.0,26.0,3.715,147.5
+Club Brugge,BEL,50043,league_phase,Club Brugge,Club Brugge KV,Belgique,BEL,BRU,https://img.uefa.com/imgml/TP/teams/logos/70x70/50043.png,23.0,75.25,12.45,14.5,15.75,21.0,17.0,7.0,2.49,75.25
+Como,ITA,79946,league_phase,,,,,,,,,19.989,,,,,,3.997,3.997
+Feyenoord,NED,52749,league_phase,Feyenoord,Feyenoord,Pays-Bas,NED,FEY,https://img.uefa.com/imgml/TP/teams/logos/70x70/52749.png,27.0,71.0,13.585,4.0,18.0,8.0,17.0,24.0,2.717,71.0
+Galatasaray,TUR,50067,league_phase,Galatasaray,Galatasaray A.Ş.,Turquie,TUR,GAL,https://img.uefa.com/imgml/TP/teams/logos/70x70/50067.png,49.0,53.5,10.375,17.75,12.75,8.0,,15.0,2.075,53.5
+Inter,ITA,50138,league_phase,Inter,FC Internazionale Milano,Italie,ITA,INT,https://img.uefa.com/imgml/TP/teams/logos/70x70/50138.png,5.0,127.0,19.989,19.75,40.25,20.0,29.0,18.0,3.997,127.0
+Leipzig,GER,2603790,league_phase,Leipzig,RB Leipzig,Allemagne,GER,RBL,https://img.uefa.com/imgml/TP/teams/logos/70x70/2603790.png,37.0,61.0,18.58,,8.0,18.0,18.0,17.0,3.715,61.0
+Lens,FRA,52277,league_phase,Lens,RC Lens,France,FRA,LEN,https://img.uefa.com/imgml/TP/teams/logos/70x70/52277.png,120.0,12.5,16.699,,2.5,10.0,,,3.339,12.5
+Lille,FRA,75797,league_phase,Lille,LOSC Lille,France,FRA,LIL,https://img.uefa.com/imgml/TP/teams/logos/70x70/75797.png,29.0,68.75,16.699,10.75,24.0,17.0,,17.0,3.339,68.75
+Liverpool,ENG,7889,league_phase,Liverpool,Liverpool FC,Angleterre,ENG,LIV,https://img.uefa.com/imgml/TP/teams/logos/70x70/7889.png,4.0,130.0,23.903,28.5,29.5,20.0,19.0,33.0,4.78,130.0
+Man City,ENG,52919,league_phase,Man City,Manchester City,Angleterre,ENG,MCI,https://img.uefa.com/imgml/TP/teams/logos/70x70/52919.png,6.0,125.5,23.903,22.75,14.75,28.0,33.0,27.0,4.78,125.5
+Man Utd,ENG,52682,league_phase,Man Utd,Manchester United,Angleterre,ENG,MUN,https://img.uefa.com/imgml/TP/teams/logos/70x70/52682.png,21.0,76.5,23.903,,32.5,7.0,19.0,18.0,4.78,76.5
+Napoli,ITA,50136,league_phase,Napoli,SSC Napoli,Italie,ITA,NAP,https://img.uefa.com/imgml/TP/teams/logos/70x70/50136.png,34.0,63.0,19.989,12.0,,17.0,25.0,9.0,3.997,63.0
+Paris,FRA,52747,league_phase,Paris,Paris Saint-Germain,France,FRA,PSG,https://img.uefa.com/imgml/TP/teams/logos/70x70/52747.png,3.0,132.0,16.699,37.5,33.5,23.0,19.0,19.0,3.339,132.0
+Porto,POR,50064,league_phase,Porto,FC Porto,Portugal,POR,POR,https://img.uefa.com/imgml/TP/teams/logos/70x70/50064.png,20.0,80.75,14.633,24.0,9.75,19.0,18.0,10.0,2.926,80.75
+PSV,NED,50062,league_phase,PSV,PSV Eindhoven,Pays-Bas,NED,PSV,https://img.uefa.com/imgml/TP/teams/logos/70x70/50062.png,26.0,71.25,13.585,12.0,21.25,17.0,11.0,10.0,2.717,71.25
+Real Betis,ESP,52265,league_phase,Real Betis,Real Betis Balompié,Espagne,ESP,BET,https://img.uefa.com/imgml/TP/teams/logos/70x70/52265.png,24.0,74.5,19.409,22.25,19.25,6.0,16.0,11.0,3.881,74.5
+Real Madrid,ESP,50051,league_phase,Real Madrid,Real Madrid C.F.,Espagne,ESP,RMA,https://img.uefa.com/imgml/TP/teams/logos/70x70/50051.png,2.0,144.5,19.409,27.0,24.5,34.0,29.0,30.0,3.881,144.5
+Roma,ITA,50137,league_phase,Roma,AS Roma,Italie,ITA,ROM,https://img.uefa.com/imgml/TP/teams/logos/70x70/50137.png,13.0,97.75,19.989,17.25,14.5,21.0,22.0,23.0,3.997,97.75
+Shakhtar,UKR,52707,league_phase,Shakhtar,FC Shakhtar Donetsk,Ukraine,UKR,SHK,https://img.uefa.com/imgml/TP/teams/logos/70x70/52707.png,45.0,56.25,5.182,18.25,11.0,10.0,11.0,6.0,1.036,56.25
+Slavia Praha,CZE,52498,league_phase,Slavia Praha,SK Slavia Praha,Tchéquie,CZE,SLA,https://img.uefa.com/imgml/TP/teams/logos/70x70/52498.png,59.0,44.0,9.705,9.0,4.0,15.0,6.0,10.0,1.941,44.0
+Sporting CP,POR,50149,league_phase,Sporting CP,Sporting Clube de Portugal,Portugal,POR,SPO,https://img.uefa.com/imgml/TP/teams/logos/70x70/50149.png,15.0,84.0,14.633,27.5,14.5,12.0,14.0,16.0,2.926,84.0
+Stuttgart,GER,50107,league_phase,Stuttgart,VfB Stuttgart,Allemagne,GER,STU,https://img.uefa.com/imgml/TP/teams/logos/70x70/50107.png,80.0,27.5,18.58,14.5,13.0,,,,3.715,27.5
+Villarreal,ESP,70691,league_phase,Villarreal,Villarreal CF,Espagne,ESP,VIL,https://img.uefa.com/imgml/TP/teams/logos/70x70/70691.png,39.0,59.0,19.409,7.0,,16.0,12.0,24.0,3.881,59.0
+AEK Athens,GRE,50129,playoff,AEK Athens,AEK Athens FC,Grèce,GRE,AEK,https://img.uefa.com/imgml/TP/teams/logos/70x70/50129.png,84.0,24.0,9.682,17.5,2.0,3.0,,1.5,1.936,24.0
+Bodø/Glimt,NOR,59333,playoff,Bodø/Glimt,FK Bodø/Glimt,Norvège,NOR,BOD,https://img.uefa.com/imgml/TP/teams/logos/70x70/59333.png,32.0,64.0,8.247,17.0,21.0,8.0,3.0,15.0,1.649,64.0
+Celje,SVN,59030,playoff,Celje,NK Celje,Slovénie,SVN,CLJ,https://img.uefa.com/imgml/TP/teams/logos/70x70/59030.png,89.0,23.0,4.893,11.0,9.5,2.5,,,0.978,23.0
+Celtic,SCO,50050,playoff,Celtic,Celtic FC,Écosse,SCO,CEL,https://img.uefa.com/imgml/TP/teams/logos/70x70/50050.png,58.0,44.0,6.41,9.0,16.0,7.0,6.0,6.0,1.282,44.0
+Fenerbahçe,TUR,52692,playoff,Fenerbahçe,Fenerbahçe SK,Turquie,TUR,FEN,https://img.uefa.com/imgml/TP/teams/logos/70x70/52692.png,42.0,57.75,10.375,10.5,11.25,14.0,17.0,5.0,2.075,57.75
+GNK Dinamo,CRO,50164,playoff,GNK Dinamo,GNK Dinamo,Croatie,CRO,DIN,https://img.uefa.com/imgml/TP/teams/logos/70x70/50164.png,56.0,46.5,5.631,7.5,14.0,9.0,7.0,9.0,1.126,46.5
+H. Beer-Sheva,ISR,59340,playoff,H. Beer-Sheva,Hapoel Beer-Sheva FC,Israël,ISR,HBS,https://img.uefa.com/imgml/TP/teams/logos/70x70/59340.png,132.0,14.0,5.5,1.5,2.0,2.0,6.0,2.5,1.1,14.0
+LASK,AUT,63405,playoff,LASK,LASK,Autriche,AUT,LASK,https://img.uefa.com/imgml/TP/teams/logos/70x70/63405.png,99.0,21.0,6.77,,3.0,3.0,,15.0,1.354,21.0
+Levski Sofia,BUL,50044,playoff,Levski Sofia,PFC Levski Sofia,Bulgarie,BUL,LSO,https://img.uefa.com/imgml/TP/teams/logos/70x70/50044.png,222.0,7.0,4.212,2.5,,2.5,2.0,,0.842,7.0
+Lyon,FRA,5312,playoff,Lyon,Olympique Lyonnais,France,FRA,LYO,https://img.uefa.com/imgml/TP/teams/logos/70x70/5312.png,31.0,65.75,16.699,22.0,22.75,,,21.0,3.339,65.75
+N.E.C.,NED,52330,playoff,,,,,,,,,13.585,,,,,,2.717,2.717
+S. Bratislava,SVK,52797,playoff,S. Bratislava,ŠK Slovan Bratislava,Slovaquie,SVK,SLB,https://img.uefa.com/imgml/TP/teams/logos/70x70/52797.png,65.0,36.0,4.475,4.0,6.0,8.0,12.0,6.0,0.895,36.0
+Sabah,AZE,2609356,playoff,Sabah,Sabah FC,Azerbaïdjan,AZE,SAB,https://img.uefa.com/imgml/TP/teams/logos/70x70/2609356.png,244.0,6.0,4.587,2.0,2.0,2.0,,,0.917,6.0
+Viking,NOR,52319,playoff,Viking,Viking FK,Norvège,NOR,VFK,https://img.uefa.com/imgml/TP/teams/logos/70x70/52319.png,202.0,4.5,8.247,2.0,,,2.5,,1.649,4.5
